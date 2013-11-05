@@ -1,0 +1,23 @@
+[
+	{
+		"period": "Today",
+		"serviceCount": 28,
+		"serviceTotal": 14,
+		"image": "shower"
+	}, {
+		"period": "This Week",
+		"serviceCount": 35,
+		"serviceTotal": 18,
+		"image": "sunny"
+	}, {
+		"period": "This Month",
+		"serviceCount": 30,
+		"serviceTotal": 16,
+		"image": "partly-sunny"
+	}, {
+		"period": "Pending Appointments",
+		"serviceCount": 28,
+		"serviceTotal": 13,
+		"image": "sunny"
+	}
+]

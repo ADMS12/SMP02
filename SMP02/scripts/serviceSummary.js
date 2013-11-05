@@ -14,7 +14,7 @@
             dataSource = new kendo.data.DataSource({
                 transport: {
                     read: {
-                        url: "data/serviceSummary.json",
+                        url: "data/services.json",
                         dataType: "json"
                     }
                 }

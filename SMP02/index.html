@@ -86,7 +86,6 @@
                 <div class="dark"></div>
                 <div class="light"></div>
             </div>
-
             <ul class="forecast-list"
                 data-role="listview"
                 data-bind="source: serviceSummaryDataSource"
@@ -99,14 +98,14 @@
     <script type="text/x-kendo-tmpl" id="serviceSummary-template">
         <div>
             <div class="position-left">
-                <span class="serviceSummary-info date">${sum}</span>
+                <span class="serviceSummary date">${period}</span>
             </div>
             <div class="position-right">
-                
-                <span class="serviceSummary-info service total">${serviceTotal}</span>
+                <span class="serviceSummary service count">${serviceCount}</span>
+                <span class="serviceSummary service total">&nbsp;&nbsp;&nbsp;$${serviceTotal}</span>
             </div>
             <div class="position-center">
-                <span class="serviceSummary-icon ${image}"></span>
+                <span class="TBD-serviceSummary-icon ${image}"></span>
             </div>
         </div>
     </script>

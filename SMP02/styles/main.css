@@ -26,13 +26,16 @@ body, html {
 
 /* IMAGE STYLES*/
 .img {
-    background-image: url(../styles/images/icenium.png);
+    background-image: url(../styles/images/BeautyServiceLogo.png);
     background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
     text-align: center;
     width: 320px;
-    height: 193px;
+    height: 300px;
     margin: 0px auto;
 }
+
 
 .logo {
     background-image: url(../styles/images/logo.png);
@@ -226,8 +229,8 @@ body, html {
     width: 100%;
 }
 
-/* Service Summary Styles */
-/* serviceSummary STYLES*/
+
+/* Service Summary STYLES*/
 .serviceSummary {
     padding-top:50px;
 }
@@ -270,6 +273,9 @@ body, html {
     margin-left: 5px;
 }
 
+.serviceSummary-info.service.count {
+}
+
 .serviceSummary-info.service.total {
     color: rgba(0,0,0,0.5);
 }
@@ -278,7 +284,7 @@ body, html {
 .serviceSummary-icon {
     width: 64px;
     height: 64px;
-    background-image: url(../styles/images/sprite-serviceSummary.png);
+    background-image: url(../styles/images/sprite-weather.png);
     background-repeat: no-repeat;
     float: right;
     position: relative;
@@ -405,7 +411,7 @@ body, html {
 /* RETINA DISPLAY STYLES*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
     .img {
-        background-image: url(../styles/images/icenium2x.png);
+        background-image: url(../styles/images/BeautyLogo.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
