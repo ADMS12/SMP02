@@ -2,22 +2,22 @@
 	{
 		"period": "Today",
 		"serviceCount": 28,
-		"serviceTotal": 14,
+		"serviceTotal": 140,
 		"image": "shower"
 	}, {
 		"period": "This Week",
 		"serviceCount": 35,
-		"serviceTotal": 18,
+		"serviceTotal": 820,
 		"image": "sunny"
 	}, {
 		"period": "This Month",
 		"serviceCount": 30,
-		"serviceTotal": 16,
+		"serviceTotal": 2600,
 		"image": "partly-sunny"
 	}, {
 		"period": "Pending Appointments",
 		"serviceCount": 28,
-		"serviceTotal": 13,
+		"serviceTotal": 135,
 		"image": "sunny"
 	}
 ]
